@@ -121,14 +121,7 @@ function Skills() {
           create secure and efficient solutions. Below are my key skill areas:
         </p>
 
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-            gap: "20px",
-            marginTop: "20px",
-          }}
-        >
+        <div className="grid-container">
           {skillData.map((skill, index) => (
             <div
               key={index}
@@ -235,7 +228,7 @@ function Education() {
           marginTop: "20px"
         }}>
           {/* timeline line */}
-          <div style={{
+          <div className="timeline-line" style={{
             position: "absolute",
             left: "98px",
             top: "0",
@@ -248,6 +241,7 @@ function Education() {
           {educationData.map((edu, index) => (
             <div 
               key={index} 
+              className="education-item"
               style={{ 
                 display: "flex", 
                 alignItems: "flex-start", 
@@ -256,7 +250,7 @@ function Education() {
               }}
             >
               {/* Year */}
-              <div style={{
+              <div className="education-year" style={{
                 width: "60px",
                 textAlign: "right",
                 marginRight: "20px",
@@ -269,7 +263,7 @@ function Education() {
               </div>
 
               {/* Icon */}
-              <div style={{
+              <div className="education-icon" style={{
                 minWidth: "40px",
                 minHeight: "40px",
                 borderRadius: "50%",
@@ -377,12 +371,7 @@ function Projects() {
     <>
       <div className="c-heder">Projects</div>
       <div className="c-paragraph">
-        <div style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-          gap: "20px",
-          marginTop: "20px"
-        }}>
+        <div className="grid-container">
           {projectData.map((project, index) => (
             <div
               key={index}

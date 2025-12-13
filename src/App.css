@@ -14,7 +14,6 @@
   border: 2px solid green;
   padding:1px;
   margin: 20px;
-  width: (100vw-10px);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -135,6 +134,52 @@
   .main-contener {
     margin: 0;
   }
+  .profile-pic {
+    height: 150px;
+    width: 150px;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .c-heder {
+    font-size: 18px;
+  }
+  .c-paragraph {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .border {
+    margin: 10px;
+    width: calc(100vw - 20px);
+  }
+  .profile-pic {
+    height: 120px;
+    width: 120px;
+  }
+  .name {
+    font-size: 18px;
+  }
+  .icon {
+    height: 30px;
+    width: 30px;
+  }
+  .profile-row {
+    gap: 6px;
+  }
+  .c-heder {
+    font-size: 16px;
+    margin-left: 5px;
+  }
+  .c-paragraph {
+    font-size: 12px;
+    margin: 5px;
+    padding: 5px;
+  }
+  .nav-button {
+    font-size: 14px;
+  }
 }
 @keyframes rotate{
   from{
@@ -162,11 +207,32 @@
     transform: translateX(0);
   }
 }
-@keyframes fadein{
-  from{
-    opacity: 0;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr;
   }
-  to{
-    opacity: 1;
+  .education-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .education-year {
+    width: auto;
+    text-align: left;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .education-icon {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .timeline-line {
+    display: none;
   }
 }
