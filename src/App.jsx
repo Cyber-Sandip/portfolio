@@ -363,7 +363,7 @@ function Projects() {
       title: "Steganography Tool",
       year: "2023",
       desc: "A tool to hide and extract secret messages inside images and audio files for secure communication.",
-      link: "https://github.com/Cyber-Sandip/"
+      link: "https://github.com/Cyber-Sandip/stegnography_tool"
     }
   ];
 
