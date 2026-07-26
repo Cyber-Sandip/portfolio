@@ -7,7 +7,7 @@ function Profile({onMain}){
   return(
     <>
       <div className='profile-photo'>
-        <img className='profile-pic' src='./profile-image.jpg'></img>
+        <img className='profile-pic' src='https://ik.imagekit.io/hnjfxwi3c/1746643300126_1_.jpg'></img>
       </div>
       <div className='name'><center>Sandip Hazra</center></div>
       <a className="profile-row" href="tel:+919907528120" style={{textDecoration: 'none', color:"inherit"}}>
