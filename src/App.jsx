@@ -30,7 +30,7 @@ function Profile({onMain}){
         <tr style={{gap:"15px", display:"flex", justifyContent:"center", alignItems:"center"}}>
           <td>
           <a className='profile-row' href="https://github.com/Cyber-Sandip/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
-            <img src="https://ik.imagekit.io/sochtgkmt/github.svg" alt="Github" className="icon"
+            <img src="https://ik.imagekit.io/sochtgkmt/github.svg" alt="Github" className="icon" />
           </a>
           </td>
           <td>
@@ -40,8 +40,7 @@ function Profile({onMain}){
           </td>
           <td>
             <a className='profile-row' href="whatsapp://send?phone=919907528120&text=Hello" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
-              <img src="https://ik.imagekit.io/sochtgkmt/WhatsApp.svg" alt="WhatsApp" className="icon"
-/>
+              <img src="https://ik.imagekit.io/sochtgkmt/WhatsApp.svg" alt="WhatsApp" className="icon" />
             </a> 
           </td>
         </tr>  
