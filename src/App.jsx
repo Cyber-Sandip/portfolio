@@ -330,10 +330,10 @@ function Education() {
 function Projects() {
   const projectData = [
     {
-      title: "Jarvis Voice Assistant",
-      year: "2025",
+      title: "LEO Voice Assistant",
+      year: "2026",
       desc: "A Python-based voice-controlled assistant capable of performing tasks like web search, app control, and system commands.",
-      link: "https://github.com/Cyber-Sandip/"
+      link: "https://github.com/Cyber-Sandip/Leo"
     },
     {
       title: "Portfolio Page",
