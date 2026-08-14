@@ -40,7 +40,8 @@ function Profile({onMain}){
           </td>
           <td>
             <a className='profile-row' href="whatsapp://send?phone=919907528120&text=Hello" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
-              <img src="/WhatsApp.svg" alt="instagram" className="icon" />
+              <img src="https://ik.imagekit.io/sochtgkmt/WhatsApp.svg" alt="WhatsApp" className="icon"
+/>
             </a> 
           </td>
         </tr>  
