@@ -11,31 +11,31 @@ function Profile({onMain}){
       </div>
       <div className='name'><center>Sandip Hazra</center></div>
       <a className="profile-row" href="tel:+919907528120" style={{textDecoration: 'none', color:"inherit"}}>
-        <img src='/phone.svg' alt='Phone' className="icon" />
+        <img src="https://ik.imagekit.io/sochtgkmt/phone.svg" alt='Phone' className="icon" />
         <span>+91 9907528120</span>
       </a>
       <a className="profile-row" href="mailto:sandiphazra301@gmail.com" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
-        <img src="/email.svg" alt="Email" className="icon" />
+        <img src="https://ik.imagekit.io/sochtgkmt/email.svg" alt="Email" className="icon" />
         <span>sandiphazra301@gmail.com</span>
       </a>
       <a className="profile-row" >
-        <img src="/birth.svg" alt="" className="icon" />
+        <img src="https://ik.imagekit.io/sochtgkmt/birth.svg" alt="barth_date" className="icon" />
         <span>21 march 2004</span>
       </a>
       <a className="profile-row" href="https://www.google.com/maps/place/Bishnupur,+West+Bengal+722122/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
-        <img src="/location.svg" alt="gmap" className="icon" />
+        <img src="https://ik.imagekit.io/sochtgkmt/location.svg" alt="gmap" className="icon" />
         <span>Bishnupur , Bankura , West bengal , 722122</span>
       </a>
       <div> 
         <tr style={{gap:"15px", display:"flex", justifyContent:"center", alignItems:"center"}}>
           <td>
           <a className='profile-row' href="https://github.com/Cyber-Sandip/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
-            <img src="/github.svg" alt="github" className="icon" />
+            <img src="https://ik.imagekit.io/sochtgkmt/github.svg" alt="Github" className="icon"
           </a>
           </td>
           <td>
             <a className='profile-row' href="https://www.linkedin.com/in/sandip-hazra-1487432a3" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
-              <img src="/linkedin.svg" alt="linkedin" className="icon" />
+              <img src="https://ik.imagekit.io/sochtgkmt/linkedin.svg" alt="linkedin" className="icon" />
             </a>
           </td>
           <td>
@@ -99,17 +99,17 @@ function Skills() {
     {
       title: "Python Programming",
       desc: "Strong foundation in Python for scripting, backend development, and automation.",
-      icon: "/python.svg"
+      icon: "https://ik.imagekit.io/sochtgkmt/python.svg"
     },
     {
       title: "Full Stack Web Development",
       desc: "Experience in building responsive and scalable apps using MERN stack (MongoDB, Express, React, Node.js).",
-      icon: "/web.svg"
+      icon: "https://ik.imagekit.io/sochtgkmt/web.svg"
     },
     {
       title: "Cyber Security",
       desc: "Knowledge of ethical hacking, secure coding, and vulnerability assessment.",
-      icon: "/security.svg"
+      icon: "https://ik.imagekit.io/sochtgkmt/security.svg"
     }
   ];
 
@@ -340,7 +340,7 @@ function Projects() {
       title: "Portfolio Page",
       year: "2025",
       desc: "A personal portfolio built with React.js showcasing my skills, education, and projects in a futuristic design.",
-      link: "https://github.com/Cyber-Sandip/"
+      link: "https://github.com/Cyber-Sandip/portfolio"
     },
     {
       title: "Bishnupur Travel Website",
